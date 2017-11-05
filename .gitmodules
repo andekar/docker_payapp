@@ -1,0 +1,3 @@
+[submodule "mgsv"]
+	path = mgsv
+	url = git@github.com:andekar/mgsv.git
