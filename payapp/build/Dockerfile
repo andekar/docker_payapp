@@ -23,4 +23,5 @@ RUN echo -e "StrictHostKeyChecking no" >> /etc/ssh/ssh_config
 # copy secret configurations
 COPY config config
 
-CMD rebar3 as prod release -o /artifacts
+# Build app
+CMD make docker
